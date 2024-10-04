@@ -32,6 +32,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     box-shadow: 0 0 7px 1px #0D0D0D;
+    background-color: #ffffff;
 }
 .icon-tabler-tools-kitchen {
     background-color: #eb5842;
@@ -50,27 +51,21 @@ nav a {
 nav li {
     list-style-type: none;
 }
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 .black {
     color: #0D0D0D;
 }
 .orange {
     color: #eb5842;
 }
-.top-left {
-    position: relative;
-    top: -23px;
-    left: 35px;
-    width: 40px;
-}
-.top-right {
-    position: relative;
-    top: -50px;
-    right: -328px;
-    width: 70px;
-}
+
+
 input {
     position: relative;
-    top: -47px;
+    top: 12px;
     left: 54px;
     width: 269px;
     padding-top: 10px;
@@ -80,7 +75,7 @@ input {
 }
 .icon-tabler-search {
     position: relative;
-    top: -87px;
+    top: -28px;
     left: 323px;
 }
 h1{
@@ -88,11 +83,149 @@ h1{
     font-family: Bebas Neue;
     text-align: center;
     position: relative;
-    top: -72px;
+    top: -11px;
 }
 .bottom {
-    display: inline-block;
     position: relative;
-    top: 140px;
+    top: 213px;
+    right: 54px;
 }
-
+.top-left {
+    position: relative;
+    top: -24px;
+    left: 35px;
+}
+.top-right {
+    position: relative;
+    top: -24px;
+    left: 258px;
+}
+.icon-bottom {
+    position: relative;
+    top: 10px;
+    left: 79px;
+}
+.icon-tabler-share {
+    left: 108px;
+}
+.icon-tabler-printer {
+    left: 131px;
+}
+.icon-tabler-file-symlink {
+    left: 160px;
+}
+.two-tacos {
+    aspect-ratio: auto;
+    width: 414px;
+    position: relative;
+    top: 39px;
+}
+.taco p {
+    position: relative;
+    top: 52px;
+    width: 390px;
+    margin: 0 auto;
+}
+p {
+    font-size: 16px;
+    font-family:Montserrat;
+}
+h2 {
+    font-size: 30px;
+    font-family: Bebas Neue;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 5px;
+}
+.details {
+    margin: 50px 10px;
+    margin-bottom: 20px;
+}
+table {
+    font-family: Montserrat;
+}
+th {
+    font-weight: 700;
+    text-align: left;
+    padding-right: 15px;
+}
+.ingredients h2 {
+    margin-top: -11px;
+    margin-bottom: 10px;
+}
+ .ingredients ul {
+    padding-left: 25px;
+    list-style-type: square;
+    line-height: 30px;
+    font-family: Montserrat;
+}
+.ingredients li {
+    padding-left: 10px;
+}
+.directions h2 {
+    margin-top: 8px;
+    margin-bottom: 13px;
+}
+ol {
+    font-family: Montserrat;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+ol li {
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 24px;
+    margin: 10px 0;
+}
+ol li:last-of-type {
+    margin-bottom: 0;
+}
+.sides h2{
+    margin-top: 10px;
+    padding-top: 25px;
+}
+.sides {
+    background-color: #7ABFBF;
+    line-height: 10px;
+}
+h3 {
+    font-size: 25px;
+    font-family: Bebas Neue;
+    position: relative;
+    top: 27px;
+    left: 115px;
+    top: 38px;
+    left: 120px;
+    width: fit-content;
+}
+.sides img {
+    aspect-ratio: auto;
+    width: 90px;
+    margin-left: 15px;
+    position: relative;
+    top: 23px;
+}
+.sides p:nth-of-type(even){
+    font-weight: 700;
+    position: relative;
+    top: -16px;
+    left: 120px;
+    width: fit-content;
+}
+.sides p:nth-of-type(odd) {
+    position: relative;
+    top: -27px;
+    left: 120px;
+    width: fit-content;
+}
+.sides svg {
+    position: relative;
+    top: -6px;
+    left: 117px;
+}
+main {
+    background-color: #f2f2f2;
+}
+.bot-nav a {
+    color: #eb5842;
+}
