@@ -25,7 +25,7 @@ time, mark, audio, video {
 }
 /**********Global Styles**********/
 body {
-    max-width: 414px;
+    width: 414px;
     margin: 0 auto;
 }
 .logos {
@@ -33,6 +33,14 @@ body {
     grid-template-columns: 1fr 2fr 1fr;
     box-shadow: 0 0 7px 1px #0D0D0D;
     background-color: #ffffff;
+}
+.foods {
+    visibility: hidden;
+    position: absolute;
+}
+div nav {
+    visibility: hidden;
+    position: absolute;
 }
 .icon-tabler-tools-kitchen {
     background-color: #eb5842;
@@ -228,4 +236,143 @@ main {
 }
 .bot-nav a {
     color: #eb5842;
+}
+.socials {
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+.icon-tabler-brand-facebook {
+    position: relative;
+    top: 40px;
+    left: 33px;
+}
+.icon-tabler-brand-instagram {
+    position: relative;
+    top: 40px;
+    left: 87px;
+}
+.icon-tabler-brand-youtube {
+    position: relative;
+    top: 40px;
+    left: 141px;
+}
+.icon-tabler-brand-tiktok {
+    position: relative;
+    top: 40px;
+    left: 195px;
+}
+.fb {
+    position: relative;
+    top: 31px;
+    left: 23px;
+}
+.ig {
+    position: relative;
+    top: 31px;
+    left: 46px;
+}
+.yt {
+    position: relative;
+    top: 31px;
+    left: 84px;
+}
+.tt {
+    position: relative;
+    top: 31px;
+    left: 118px;
+}
+footer img {
+    aspect-ratio: auto;
+    width: 200px;
+    position: relative;
+    top: 47px;
+    left: 104px;
+}
+footer {
+    background-color: #ffffff;
+    height: 306px;
+}
+footer p {
+    font-family: Bebas Neue;
+    font-size: 20px;
+    width: fit-content;
+    margin: 0 auto;
+    line-height: 20px;
+    position: relative;
+    top: 58px;
+}
+@media screen and (min-width: 768px) {
+    body {
+        width: 768px;
+    }
+    .burger {
+        visibility: hidden;
+        position: absolute;
+    }
+    .top-left {
+        visibility: hidden;
+        position: absolute;
+    }
+    span {
+        visibility: hidden;
+    }
+    .logos {
+        grid-template-columns: 1fr;
+        height: 200px;
+    }
+    .icon-tabler-tools-kitchen {
+        width: 83px;
+    }
+    .icon-tabler-user-circle {
+        margin: 0;
+       position: relative;
+       top: -99px;
+       left: 705px;
+    }
+    .icon-tabler-search {
+        top: -237px;
+        left: 635px;
+    }
+    input {
+        top: -197px;
+        left: 369px;
+    }
+    .top-right {
+        top: -139px;
+        left: 701px;
+        width: fit-content;
+    }
+    .foods {
+        visibility: visible;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-column-gap: 55px;
+        left: 25px;
+        top: 97px;
+    }
+    .foods img {
+        aspect-ratio: auto;
+        width: 55px;
+    }
+    div nav ul{
+        visibility: visible;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-column-gap: 54px;
+        position: absolute;
+        top: -41px;
+        left: 20px;
+    }
+    .nav-right0 {
+        position: relative;
+        left: -3px;
+    }
+    .nav-right1 {
+        position: relative;
+        left: 8px;
+    }
+    .nav-right2 {
+        position: relative;
+        left: 20px;
+    }
 }
