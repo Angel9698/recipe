@@ -24,6 +24,9 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /**********Global Styles**********/
+html {
+    background-color: rgba(122, 191, 191, 0.5);
+}
 body {
     width: 414px;
     margin: 0 auto;
@@ -318,7 +321,7 @@ footer p {
     }
     .logos {
         grid-template-columns: 1fr;
-        height: 200px;
+        height: 195px;
     }
     .icon-tabler-tools-kitchen {
         width: 83px;
@@ -340,15 +343,15 @@ footer p {
     .top-right {
         top: -139px;
         left: 701px;
-        width: fit-content;
+        width: 67px;
     }
     .foods {
         visibility: visible;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-column-gap: 55px;
-        left: 25px;
         top: 97px;
+        margin-left: 24px;
     }
     .foods img {
         aspect-ratio: auto;
@@ -363,6 +366,10 @@ footer p {
         top: -41px;
         left: 20px;
     }
+    div nav ul a {
+        color: #eb5842;
+        z-index: 1;
+    }
     .nav-right0 {
         position: relative;
         left: -3px;
@@ -375,4 +382,378 @@ footer p {
         position: relative;
         left: 20px;
     }
+    .nav-right3 {
+        position: relative;
+        left: 20px;
+    }
+    .nav-right4 {
+        position: relative;
+        left: 10px;
+    }
+    h1 {
+        text-align: left;
+        top: -89px;
+        margin-left: 20px;
+    }
+    .bottom {
+        top: 135px;
+        right: 115px;
+        margin-left: 145px;
+        z-index: 2;
+    }
+    .icon-bottom {
+        position: relative;
+        top: -65px;
+        z-index: 2;
+    }
+    .icon-tabler-download {
+        left: 91px;
+    }
+    .icon-tabler-share {
+        left: 227px;
+    }
+    .icon-tabler-printer {
+        left: 365px;
+    }
+    .icon-tabler-file-symlink {
+        left: 506px;
+    }
+    .two-tacos {
+        width: 768px;
+        top: -126px;
+    }
+    .blur {
+        height: 100px;
+        position: absolute;
+        top: 276px;
+        width: 768px;
+        z-index: 1;
+        background: rgba(250, 250, 250, 0.7);
+    }
+    .taco {
+        height: 1100px;
+    }
+    .taco p {
+        top: -118px;
+        width: 745px;
+        margin: 0 auto;
+    }
+    h2 {
+        margin-top: 212px;
+    }
+    table {
+        margin: 0 auto;
+    }
+    .ingredients h2 {
+        margin-left: 100px;
+        width: 100px;
+    }
+    .directions h2 {
+        margin: 0;
+        position: relative;
+        top: -380px;
+        width: fit-content;
+        left: 400px;
+    }
+    ol li {
+        width: 500px;
+        position: relative;
+        top: -376px;
+        left: 210px;
+    }
+    .directions {
+        height: 0px;
+    }
+    .right-sides {
+        position: relative;
+        left: 370px;
+        top: -280px;
+        width: 214px;
+    }
+    .sides svg {
+        top: -16px;
+        left: 182px;
+    }
+    .sides p:nth-of-type(even) {
+        top: -1px;
+    }
+    .sides {
+        height: 329px;
+    }
+    .sides p:nth-of-type(odd) {
+        top: -19px;
+    }
+    h3 {
+        top: 51px;
+    }
+    .socials {
+        margin: 0;
+        position: absolute;
+    }
+    .icon-tabler-brand-tiktok {
+        left: 566px;
+    }
+    .icon-tabler-brand-youtube {
+        left: 519px;
+    }
+    .icon-tabler-brand-instagram {
+        left: 463px;
+    }
+    .icon-tabler-brand-facebook {
+        left: 412px;
+    }
+    .tt {
+        left: 485px;
+    }
+    .yt {
+        left: 464px;
+    }
+    .ig {
+        left: 424px;
+    }
+    .fb {
+        left: 401px;
+    }
+    footer p {
+        width: 200px;
+        line-height: 20px;
+        position: relative;
+        top: 63px;
+        left: 112px;
+        text-align: center;
+        margin: 0;
+    }
+    footer {
+        height: 326px;
+    }
 }
+    @media screen and (min-width: 1280px) {
+        body {
+            width: 1280px;
+        }
+        .icon-tabler-tools-kitchen {
+            width: 120px;
+            padding: 35px 0;
+        }
+        .foods img {
+            width: 60px;
+            position: relative;
+            left: 270px;
+            top: -70px;
+        }
+        .logos {
+            height: 130px;
+        }
+        div nav ul {
+            grid-column-gap: 59px;
+            position: absolute;
+            top: -41px;
+            left: 292px;
+        }
+        .icon-tabler-user-circle {
+            left: 1200px;
+        }
+        .top-right {
+            top: -62px;
+            left: 1197px;
+        }
+        .two-tacos {
+            width: 549px;
+            top: 7px;
+            left: -50px;
+        }
+        input {
+            top: 27px;
+            left: 533px;
+        }
+        .icon-tabler-search {
+            top: -12px;
+            left: 802px;
+        }
+        h1 {
+            text-align: center;
+            top: -2px;
+        }
+        .bottom {
+            margin: 0;
+        }
+        .o1 {
+            position: relative; 
+            top: 110px;
+            left: -49px;
+        }
+        .o2 {
+            position: relative; 
+            top: 200px;
+            left: -268px;
+        }
+        .o3 {
+            position: relative; 
+            top: 300px;
+            left: -480px;
+        }
+        .o4 {
+            position: relative; 
+            top: 400px;
+            left: -696px;
+        }
+        .blur {
+            height: 820px;
+            top: 299px;
+            width: 126px;
+            background-color: #ffffff;
+            border: #eb5842 solid;
+        }
+        .icon-tabler-download {
+            left: 44px;
+            top: -737px;
+        }
+        .icon-tabler-share {
+            left: -2px;
+            top: -646px;
+        }
+        .icon-tabler-printer {
+            left: -46px;
+            top: -546px;
+        }
+        .icon-tabler-file-symlink {
+            left: -89px;
+            top: -446px;
+        }
+        .taco p {
+            top: -809px;
+            width: 558px;
+            margin: 0;
+            left: 691px;
+            line-height: 30px;
+        }
+        .taco {
+            height: 670px;
+        }
+        .details {
+            color: #7abfbf;
+            background-color: #0D0D0D;
+            margin: 0;
+            height: 105px;
+        }
+        table {
+            margin: 0;
+        }
+        .left-row1 {
+            position: relative;
+            left: 85px;
+            top: 10px;
+        }
+        .left-row2 {
+            position: relative;
+            left: 359px;
+            top: -11px;
+        }
+        .left-row3 {
+            position: relative;
+            left: 586px;
+            top: -32px;
+        }
+        .left-row4 {
+            position: relative;
+            left: 862px;
+            top: -54px;
+        }
+        .left-row5 {
+            position: relative;
+            left: 1124px;
+            top: -76px;
+        }
+        .left-row6 {
+            position: relative;
+            left: -21px;
+            top: 30px;
+        }
+        .left-row7 {
+            position: relative;
+            left: 253px;
+            top: 10px;
+        }
+        .left-row8 {
+            position: relative;
+            left: 478px;
+            top: -12px;
+        }
+        .left-row9 {
+            position: relative;
+            left: 713px;
+            top: -34px;
+        }
+        .left-row10 {
+            position: relative;
+            left: 1025px;
+            top: -55px;
+        }
+        h2 {
+            position: relative;
+            top: 6px;
+        }
+        .ingredients h2 {
+            margin-top: 0;
+            margin-left: 49px;
+        }
+        .directions h2 {
+            margin-top: 8px;
+            left: 753px;
+        }
+        ol li {
+            width: 900px;
+            left: 264px;
+        }
+        .sides {
+            height: 460px;
+        }
+        .sides img {
+            width: 260px;
+            left: 20px;
+        }
+        .right-sides {
+            left: 670px;
+            top: -620px;
+            width: 200px;
+        }
+        .right-sides3 {
+            position: relative;
+            top: -310px;
+            left: 280px;
+            width: 200px;
+        }
+        .salsa {
+            position: relative;
+            left: 310px;
+        }
+        .guacamole {
+            position: relative; 
+            left: 630px;
+            top: -640px;
+        }
+        .tortillas {
+            position: relative; 
+            left: 310px;
+            top: -310px;
+        }
+        h3 {
+            top: 313px;
+            left: 46px;
+        }
+        .lh {
+            line-height: 15px;
+        }
+        .sides p:nth-of-type(odd) {
+            top: 76px;
+            left: 47px;
+        }
+        .sides p:nth-of-type(even) {
+            top: 91px;
+            left: 48px;
+        }
+        .sides svg {
+            top: 77px;
+            left: 112px;
+        }
+    }
