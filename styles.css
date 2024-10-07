@@ -41,7 +41,7 @@ body {
     visibility: hidden;
     position: absolute;
 }
-div nav {
+.hide {
     visibility: hidden;
     position: absolute;
 }
@@ -502,17 +502,28 @@ footer p {
     .icon-tabler-brand-facebook {
         left: 412px;
     }
-    .tt {
-        left: 485px;
-    }
-    .yt {
-        left: 464px;
-    }
-    .ig {
-        left: 424px;
+    .bot-nav:last-child {
+        width: 47px;
     }
     .fb {
-        left: 401px;
+        visibility: visible;
+    }
+    .tt {
+        left: 328px;
+        top: 120px;
+
+    }
+    .yt {
+        top: 120px;
+        left: 341px;
+    }
+    .ig {
+        left: 357px;
+        top: 120px;
+    }
+    .fb {
+        left: 384px;
+        top: 120px;
     }
     footer p {
         width: 200px;
@@ -755,5 +766,46 @@ footer p {
         .sides svg {
             top: 77px;
             left: 112px;
+        }
+        .icon-tabler-brand-tiktok {
+            left: 1027px;
+        }
+        .tt {
+            left: 501px;
+            top: 120px;
+        }
+        .icon-tabler-brand-youtube {
+            left: 919px;
+        }
+        .yt {
+            left: 460px;
+            top: 120px;
+        }
+        .icon-tabler-brand-instagram {
+            left: 795px;
+        }
+        .ig {
+            left: 413px;
+            top: 120px;
+        }
+        .icon-tabler-brand-facebook {
+            left: 684px;
+        }
+        .fb {
+            left: 382px;
+            top: 120px;
+        }
+        footer img {
+            left: 15px;
+        }
+        footer p {
+            top: -135px;
+            left: 172px;
+        }
+        .bot-nav:last-child {
+            width: 47px;
+        }
+        footer {
+            height: 270px;
         }
     }
